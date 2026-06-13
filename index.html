@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    
+    <!-- Google tag (gtag.js) - Google Ads Tracking -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11213387429"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-11213387429');
+    </script>
+
+    <!-- Event snippet for conversion page -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-11213387429/gOwNCIn3vb4cEKXt-uIp',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
+    <!-- Call and WhatsApp tracking functions with conversion support -->
+    <script>
+    function makePhoneCall(phoneNumber) {
+      var cleanNumber = String(phoneNumber).replace(/[\s\-]/g, '');
+      if (!cleanNumber.startsWith('+') && !cleanNumber.startsWith('00')) {
+        if (cleanNumber.startsWith('965')) {
+          cleanNumber = '+' + cleanNumber;
+        } else {
+          cleanNumber = '+965' + cleanNumber;
+        }
+      }
+      var telUrl = 'tel:' + cleanNumber;
+      
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion(telUrl);
+      }
+      
+      setTimeout(function() {
+        window.location.href = telUrl;
+      }, 150);
+      
+      return false;
+    }
+
+    function trackWhatsAppClick(url) {
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion(url);
+      }
+      setTimeout(function() {
+        window.open(url, '_blank');
+      }, 150);
+      return false;
+    }
+    </script>
+
+    <!-- Structured Data for SEO (Renovation & Finishing Contractor) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "مقاول ترميم وتشطيب - فريق عمل متكامل",
+        "description": "افضل مقاول ترميم وتشطيب بالكويت - تركيب سيراميك - باركيه - بديل خشب - بديل رخام - مايكروسمنت - ايبوكسي - جميع الاصباغ الداخلية والخارجية - وكيل معتمد لشركة جوتن - دقة وسرعة وأمانة",
+        "telephone": "+96550101397",
+        "areaServed": "Kuwait",
+        "serviceType": "ترميم, تشطيب, تركيب سيراميك, تركيب باركيه, بديل خشب, بديل رخام, مايكروسمنت, ايبوكسي, اصباغ جوتن",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Kuwait"
+        },
+        "openingHours": "Mo-Su 00:00-23:59"
+    }
+    </script>
+
+    <title>مقاول ترميم وتشطيب | تركيب سيراميك وباركيه | اصباغ جوتن | 50101397</title>
+    <meta name="description" content="✅ مقاول ترميم وتشطيب بالكويت - فريق عمل متكامل - تركيب سيراميك وباركيه - بديل خشب ورخام - مايكروسمنت وايبوكسي - وكيل معتمد لجوتن - دقة وسرعة وأمانة - اتصل 50101397">
+    <meta name="keywords" content="مقاول ترميم, مقاول تشطيب, تركيب سيراميك, تركيب باركيه, بديل خشب, بديل رخام, مايكروسمنت, ايبوكسي, اصباغ جوتن, مقاولات الكويت">
+    <meta name="location" content="Kuwait">
+
+    <!-- Fonts & Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-green: #2E7D32;
+            --vibrant-green: #43A047;
+            --bright-green: #4CAF50;
+            --fresh-teal: #00897B;
+            --sunny-yellow: #FDD835;
+            --warm-orange: #FF8F00;
+            --clean-white: #FFFFFF;
+            --soft-bg: #F1F8E9;
+            --text-dark: #1B5E20;
+            --text-gray: #33691E;
+            --call-green: #00E676;
+            --whatsapp-green: #25D366;
+            --accent-coral: #FF5252;
+            --gradient-start: #43A047;
+            --gradient-end: #1B5E20;
+            /* New palette for contracting - keeping same fresh vibe but with slight warm touches */
+            --brick-orange: #E65100;
+            --sand-beige: #FFF3E0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #F9FBE7 0%, #F1F8E9 100%);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        
+        /* Scrolling Banner - Vibrant */
+        .scrolling-banner {
+            background: linear-gradient(90deg, #FF8F00, #FDD835, #FF8F00);
+            color: #4E2E00;
+            padding: 12px 0;
+            overflow: hidden;
+            font-weight: 800;
+            font-size: 1rem;
+            border-bottom: 3px solid var(--primary-green);
+            text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+        }
+        
+        .scrolling-content {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll 22s linear infinite;
+            padding-left: 100%;
+        }
+        
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        /* Navbar - Fresh Green */
+        .navbar {
+            background: linear-gradient(135deg, var(--primary-green), var(--vibrant-green));
+            color: white;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            border-bottom: 3px solid var(--sunny-yellow);
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            color: var(--sunny-yellow);
+            font-weight: 900;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            background: rgba(0,0,0,0.1);
+            padding: 0.3rem 1rem;
+            border-radius: 50px;
+        }
+        
+        .phone-display {
+            background: var(--sunny-yellow);
+            color: #2E7D32;
+            font-weight: 800;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            padding: 0.6rem 1.4rem;
+            border-radius: 50px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .phone-display:hover {
+            transform: scale(1.05);
+            background: white;
+            color: var(--primary-green);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+        }
+        
+        /* Hero Section - Fresh & Vibrant with tools */
+        .hero {
+            background: linear-gradient(120deg, #1B5E20, #2E7D32, #43A047);
+            color: white;
+            padding: 5rem 2rem 7rem;
+            text-align: center;
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: "🔨 🧱 🎨 🪚";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            font-size: 8rem;
+            opacity: 0.1;
+            white-space: nowrap;
+            pointer-events: none;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 40%, rgba(255,193,7,0.15), transparent);
+        }
+        
+        .hero h1, .hero p, .hero-buttons {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 900;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+            animation: fadeInUp 0.8s ease;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 750px;
+            margin: 0 auto 2rem;
+            color: #FFF9C4;
+            font-weight: 600;
+            animation: fadeInUp 1s ease;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.2rem;
+            margin-top: 2rem;
+            animation: fadeInUp 1.2s ease;
+        }
+        
+        .hero-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1rem 2rem;
+            border-radius: 60px;
+            color: white;
+            text-decoration: none;
+            font-weight: 800;
+            transition: all 0.3s;
+            background: var(--call-green);
+            font-size: 1.2rem;
+            box-shadow: 0 8px 20px rgba(0,230,118,0.4);
+            border: none;
+            cursor: pointer;
+        }
+        
+        .hero-btn:hover {
+            transform: translateY(-6px) scale(1.02);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.3);
+            filter: brightness(1.05);
+        }
+        
+        .secondary-btn {
+            background: var(--call-green);
+            animation: pulse 2s infinite;
+        }
+        
+        .whatsapp-btn {
+            background: var(--whatsapp-green);
+            box-shadow: 0 8px 20px rgba(37,211,102,0.5);
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 8px 20px rgba(0,230,118,0.4); }
+            50% { transform: scale(1.05); box-shadow: 0 12px 30px rgba(0,230,118,0.7); }
+            100% { transform: scale(1); box-shadow: 0 8px 20px rgba(0,230,118,0.4); }
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 5rem 2rem;
+            background: linear-gradient(to bottom, #FFFFFF, #F9FBE7);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--primary-green);
+            font-size: 2.2rem;
+            font-weight: 900;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: "";
+            display: block;
+            width: 100px;
+            height: 5px;
+            background: linear-gradient(90deg, #FDD835, #FF8F00, #FDD835);
+            margin: 0.8rem auto 0;
+            border-radius: 10px;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 30px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+            transition: all 0.4s;
+            border-bottom: 5px solid var(--sunny-yellow);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, rgba(253,216,53,0.15), transparent);
+            border-radius: 50%;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 25px 40px rgba(0,0,0,0.12);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            color: var(--bright-green);
+            margin-bottom: 1rem;
+            display: inline-block;
+            background: #E8F5E9;
+            padding: 0.8rem;
+            border-radius: 20px;
+        }
+        
+        .service-list {
+            padding-right: 20px;
+            line-height: 2;
+            font-size: 1rem;
+        }
+        
+        .service-list li {
+            margin-bottom: 0.8rem;
+            position: relative;
+            padding-right: 30px;
+        }
+        
+        .service-list li::before {
+            content: "✅";
+            color: var(--bright-green);
+            font-weight: bold;
+            position: absolute;
+            right: 0;
+        }
+        
+        /* Floating buttons */
+        .floating-btns {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+            gap: 1rem;
+        }
+        
+        .floating-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1.2rem 2rem;
+            border-radius: 60px;
+            color: white;
+            background: var(--call-green);
+            text-decoration: none;
+            font-weight: 800;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .floating-btn:hover {
+            transform: scale(1.08);
+        }
+        
+        .floating-secondary {
+            background: var(--call-green);
+        }
+        
+        .floating-whatsapp {
+            background: var(--whatsapp-green);
+        }
+        
+        .why-us {
+            padding: 5rem 2rem;
+            background: white;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 3rem auto 0;
+        }
+        
+        .feature-item {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(145deg, #FFFFFF, #F9FBE7);
+            border-radius: 40px;
+            transition: all 0.3s;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+        
+        .feature-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 30px rgba(0,0,0,0.1);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--warm-orange);
+            margin-bottom: 1rem;
+        }
+        
+        /* Types Section - Renovation specialities */
+        .types-section {
+            padding: 5rem 2rem;
+            background: linear-gradient(135deg, #F1F8E9, #FFFFFF);
+        }
+        
+        .types-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 1.8rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .type-item {
+            background: white;
+            padding: 1.8rem;
+            border-radius: 28px;
+            text-align: center;
+            box-shadow: 0 12px 25px rgba(0,0,0,0.06);
+            transition: all 0.3s;
+            border-bottom: 4px solid var(--bright-green);
+        }
+        
+        .type-item:hover {
+            transform: translateY(-6px);
+            background: linear-gradient(145deg, #FFFFFF, #E8F5E9);
+        }
+        
+        .type-item h3 {
+            color: var(--primary-green);
+            font-weight: 800;
+        }
+        
+        /* Packages */
+        .packages {
+            padding: 5rem 2rem;
+            background: linear-gradient(to bottom, #F9FBE7, #FFFFFF);
+        }
+        
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .package-card {
+            background: white;
+            padding: 2.5rem 2rem;
+            border-radius: 35px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: all 0.3s;
+            border-top: 6px solid var(--warm-orange);
+        }
+        
+        .package-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 25px 45px rgba(0,0,0,0.12);
+        }
+        
+        .package-title {
+            font-size: 1.6rem;
+            color: var(--primary-green);
+            margin-bottom: 1rem;
+            font-weight: 900;
+        }
+        
+        .package-price {
+            font-size: 1.3rem;
+            color: var(--warm-orange);
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+        
+        .package-features {
+            list-style: none;
+            margin: 1.5rem 0;
+            text-align: right;
+            padding-right: 0;
+        }
+        .package-features li {
+            margin-bottom: 0.5rem;
+            position: relative;
+            padding-right: 1.5rem;
+        }
+        .package-features li::before {
+            content: "✓";
+            color: var(--bright-green);
+            font-weight: bold;
+            position: absolute;
+            right: 0;
+        }
+        .package-btn {
+            display: inline-block;
+            padding: 0.9rem 1.8rem;
+            background: var(--call-green);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 800;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 5px 12px rgba(0,230,118,0.4);
+        }
+        
+        .package-btn:hover {
+            background: var(--whatsapp-green);
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0,230,118,0.6);
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            padding: 5rem 2rem;
+            background: linear-gradient(120deg, #FFF9C4, #FFFFFF);
+        }
+        
+        .testimonial-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 30px;
+            box-shadow: 0 12px 25px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        /* Contact Form */
+        .contact-form {
+            padding: 5rem 2rem;
+            background: #E8F5E9;
+        }
+        
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 2.5rem;
+            border-radius: 40px;
+            box-shadow: 0 20px 35px rgba(0,0,0,0.08);
+        }
+        
+        .form-group {
+            margin-bottom: 1.2rem;
+            text-align: right;
+        }
+        .form-group label {
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            display: block;
+            color: var(--primary-green);
+        }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 30px;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+            outline: none;
+            border-color: var(--bright-green);
+            box-shadow: 0 0 0 3px rgba(76,175,80,0.2);
+        }
+        .submit-btn {
+            background: var(--call-green);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 60px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+            font-size: 1.1rem;
+        }
+        
+        .submit-btn:hover {
+            background: var(--whatsapp-green);
+            transform: scale(1.02);
+        }
+        
+        .hours-badge {
+            background: var(--sunny-yellow);
+            color: #2E7D32;
+            padding: 0.6rem 1.2rem;
+            border-radius: 50px;
+            font-weight: 800;
+            display: inline-block;
+            margin-top: 1rem;
+            animation: pulse 2s infinite;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .contact-info {
+            background: #FFFDE7;
+            padding: 2rem;
+            border-radius: 35px;
+            text-align: center;
+            margin-top: 2rem;
+            border: 2px solid var(--sunny-yellow);
+        }
+        
+        .search-tags {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: #F9FBE7;
+        }
+        .search-tags h3 {
+            color: var(--primary-green);
+            margin-bottom: 1.5rem;
+            font-weight: 800;
+        }
+        .service-tag {
+            background: linear-gradient(135deg, #43A047, #2E7D32);
+            padding: 10px 20px;
+            border-radius: 30px;
+            color: white;
+            font-weight: bold;
+            border: 2px solid #FDD835;
+            display: inline-block;
+            transition: 0.2s;
+        }
+        .service-tag:hover {
+            transform: scale(1.03);
+            background: #1B5E20;
+        }
+        
+        .simple-footer {
+            background: linear-gradient(135deg, #1B5E20, #2E7D32);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            border-top: 5px solid var(--sunny-yellow);
+        }
+        .footer-phone {
+            font-weight: 800;
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin: 0.5rem 0;
+            display: inline-block;
+            background: rgba(0,0,0,0.2);
+            padding: 0.4rem 1.2rem;
+            border-radius: 50px;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="scrolling-banner">
+        <div class="scrolling-content">
+            🔨 مقاول ترميم وتشطيب بالكويت - فريق عمل متكامل - تركيب سيراميك وباركيه - بديل خشب ورخام - مايكروسمنت وايبوكسي - وكيل معتمد لشركة جوتن - دقة وسرعة وأمانة - اتصل: 50101397 🔨
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">🏗️ مقاول ترميم وتشطيب | جوتن المعتمد 🏗️</div>
+        <div class="phone-display" onclick="makePhoneCall('50101397')">
+            <i class="fas fa-phone-alt"></i> 50101397
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hours-badge">
+            <i class="fas fa-hard-hat"></i> فريق متكامل | دقة - سرعة - أمانة | وكيل جوتن المعتمد
+        </div>
+        <h1>🔥 مقاول ترميم وتشطيب | تركيب سيراميك وباركيه | جميع الاصباغ الداخلية والخارجية 🔥</h1>
+        <p>✅ أفضل مقاول ترميم بالكويت - نقدم حلول تشطيب شاملة: سيراميك، باركيه، بديل خشب، بديل رخام، مايكروسمنت، وايبوكسي. وكيل معتمد لدهانات جوتن - جودة عالية وسعر منافس.</p>
+        <div class="hero-buttons">
+            <button class="hero-btn secondary-btn" onclick="makePhoneCall('50101397')">
+                <i class="fas fa-phone-volume"></i>
+                اطلب استشارة مجانية
+            </button>
+            <button class="hero-btn whatsapp-btn" onclick="trackWhatsAppClick('https://wa.me/96550101397')">
+                <i class="fab fa-whatsapp"></i>
+                واتساب للتواصل الفوري
+            </button>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2 class="section-title">خدمات الترميم والتشطيب المتكاملة</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-tile service-icon"></i>
+                <h3>تركيب سيراميك وباركيه</h3>
+                <ul class="service-list">
+                    <li>تركيب جميع أنواع السيراميك والبورسلين</li>
+                    <li>تركيب الباركيه واللامينيت بأعلى جودة</li>
+                    <li>بديل خشب وبديل رخام فاخر</li>
+                    <li>تشطيب أرضيات وجدران بإتقان</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-paint-roller service-icon"></i>
+                <h3>دهانات داخلية وخارجية - وكيل جوتن</h3>
+                <ul class="service-list">
+                    <li>وكيل معتمد لدهانات جوتن العالمية</li>
+                    <li>جميع الاصباغ الداخلية والخارجية</li>
+                    <li>مايكروسمنت وايبوكسي للأرضيات والجدران</li>
+                    <li>استشارات ألوان مجانية</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-building service-icon"></i>
+                <h3>ترميم شامل وتشطيب المكاتب والمنازل</h3>
+                <ul class="service-list">
+                    <li>ترميم الشقق والفلل والمحلات</li>
+                    <li>فريق عمالة فنية مدربة</li>
+                    <li>إشراف هندسي متكامل</li>
+                    <li>تسليم المشاريع في الوقت المحدد</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="types-section">
+        <h2 class="section-title">جميع أعمال التشطيب والترميم تحت سقف واحد</h2>
+        <div class="types-grid">
+            <div class="type-item"><h3><i class="fas fa-border-all"></i> سيراميك</h3><p>تركيب وتشطيب احترافي</p></div>
+            <div class="type-item"><h3><i class="fas fa-wood"></i> باركيه</h3><p>أرضيات خشبية فاخرة</p></div>
+            <div class="type-item"><h3><i class="fas fa-couch"></i> بديل خشب</h3><p>حلول عصرية واقتصادية</p></div>
+            <div class="type-item"><h3><i class="fas fa-gem"></i> بديل رخام</h3><p>أناقة بسعر ممتاز</p></div>
+            <div class="type-item"><h3><i class="fas fa-fill-drip"></i> مايكروسمنت</h3><p>لمسة عصرية ناعمة</p></div>
+            <div class="type-item"><h3><i class="fas fa-layer-group"></i> ايبوكسي</h3><p>أرضيات مقاومة ولامعة</p></div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <h2 class="section-title">لماذا تختار مقاول الترميم والتشطيب لدينا؟</h2>
+        <div class="features">
+            <div class="feature-item"><i class="fas fa-handshake feature-icon"></i><h3>دقة - سرعة - أمانة</h3><p>نلتزم بالمواعيد والجودة العالية</p></div>
+            <div class="feature-item"><i class="fas fa-trophy feature-icon"></i><h3>وكيل معتمد لجوتن</h3><p>دهانات أصلية بضمان المصنع</p></div>
+            <div class="feature-item"><i class="fas fa-users feature-icon"></i><h3>فريق عمل متكامل</h3><p>عمالة فنية ومهندسين متخصصين</p></div>
+            <div class="feature-item"><i class="fas fa-map-marked-alt feature-icon"></i><h3>خدمة جميع مناطق الكويت</h3><p>نغطي الكويت بالكامل بسرعة استجابة</p></div>
+        </div>
+    </section>
+
+    <section class="packages">
+        <h2 class="section-title">باقات الترميم والتشطيب - أسعار تنافسية</h2>
+        <div class="packages-grid">
+            <div class="package-card">
+                <h3 class="package-title">باقة التشطيب الأساسي</h3>
+                <div class="package-price">سيراميك + دهانات جوتن</div>
+                <ul class="package-features"><li>تركيب سيراميك أرضيات وجدران</li><li>دهانات داخلية جوتن</li><li>معاينة مجانية وقياسات</li><li>ضمان على التنفيذ</li></ul>
+                <button class="package-btn" onclick="makePhoneCall('50101397')">طلب عرض سعر</button>
+            </div>
+            <div class="package-card">
+                <h3 class="package-title">باقة الترميم الشامل</h3>
+                <div class="package-price">تشطيب كامل + باركيه</div>
+                <ul class="package-features"><li>ترميم كامل للشقة أو الفيلا</li><li>باركيه أو بديل خشب</li><li>دهانات خارجية وداخلية</li><li>خصم خاص للمشاريع الكبيرة</li></ul>
+                <button class="package-btn" onclick="makePhoneCall('50101397')">طلب عرض سعر</button>
+            </div>
+            <div class="package-card">
+                <h3 class="package-title">باقة الديكور الحديث</h3>
+                <div class="package-price">مايكروسمنت + ايبوكسي</div>
+                <ul class="package-features"><li>مايكروسمنت للحوائط والأرضيات</li><li>أرضيات ايبوكسي للمطابخ والكراجات</li><li>استشارات الوان مجانية</li><li>تنفيذ سريع بجودة احترافية</li></ul>
+                <button class="package-btn" onclick="makePhoneCall('50101397')">طلب عرض سعر</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">آراء عملائنا الكرام</h2>
+        <div class="testimonials-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto;">
+            <div class="testimonial-card"><p class="testimonial-text">"أفضل مقاول ترميم تعاملت معه بالكويت، تركيب السيراميك والباركيه كان احترافياً والأسعار مناسبة جداً. أنصح بهم بشدة."</p><p class="testimonial-author">- أحمد - حولي</p></div>
+            <div class="testimonial-card"><p class="testimonial-text">"شغل نظيف ومواعيد دقيقة. وكيل جوتن المعتمد وفر عليا عناء البحث عن دهانات أصلية. سلموا الشقة في وقت قياسي."</p><p class="testimonial-author">- مريم - الفروانية</p></div>
+            <div class="testimonial-card"><p class="testimonial-text">"مايكروسمنت وايبوكسي روعه! الفريق فاهم ومتعاون، وفرق كبير في شكل البيت. شكراً لهم على الأمانه في العمل."</p><p class="testimonial-author">- خالد - السالمية</p></div>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contact">
+        <h2 class="section-title">اطلب معاينة مجانية الآن | استشارة بدون التزام</h2>
+        <div class="form-container">
+            <form id="contactForm">
+                <div class="form-group"><label for="name">الاسم الكامل</label><input type="text" id="name" required></div>
+                <div class="form-group"><label for="phone">رقم الهاتف</label><input type="tel" id="phone" required></div>
+                <div class="form-group"><label for="area">المنطقة</label><input type="text" id="area" required></div>
+                <div class="form-group"><label for="service">الخدمة المطلوبة</label><select id="service"><option>ترميم شامل</option><option>تركيب سيراميك وباركيه</option><option>دهانات جوتن</option><option>مايكروسمنت وايبوكسي</option></select></div>
+                <div class="form-group"><label for="message">وصف المشروع</label><textarea id="message" placeholder="اذكر نوع العمل، المساحة التقريبية، أو أي تفاصيل إضافية..."></textarea></div>
+                <button type="submit" class="submit-btn"><i class="fas fa-calculator"></i> اطلب عرض سعر ومعاينة</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <i class="fas fa-phone-alt"></i> <strong>اتصل الآن: 50101397</strong><br>
+            <i class="fab fa-whatsapp"></i> واتساب 24 ساعة: <strong onclick="trackWhatsAppClick('https://wa.me/96550101397')" style="cursor:pointer;">50101397</strong><br>
+            دقة - سرعة - أمانة - نغطي جميع مناطق الكويت - ضمان على التنفيذ
+        </div>
+    </section>
+
+    <div class="search-tags">
+        <h3>خدمات الترميم والتشطيب الأكثر طلباً في الكويت</h3>
+        <div class="tags-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+            <span class="service-tag">مقاول ترميم</span>
+            <span class="service-tag">مقاول تشطيب</span>
+            <span class="service-tag">تركيب سيراميك</span>
+            <span class="service-tag">تركيب باركيه</span>
+            <span class="service-tag">بديل خشب</span>
+            <span class="service-tag">بديل رخام</span>
+            <span class="service-tag">مايكروسمنت</span>
+            <span class="service-tag">ايبوكسي</span>
+            <span class="service-tag">دهانات جوتن</span>
+            <span class="service-tag">أفضل مقاول ترميم بالكويت</span>
+        </div>
+    </div>
+
+    <div class="floating-btns">
+        <button class="floating-btn floating-secondary" onclick="makePhoneCall('50101397')"><i class="fas fa-phone"></i> اتصل الآن</button>
+        <button class="floating-btn floating-whatsapp" onclick="trackWhatsAppClick('https://wa.me/96550101397')"><i class="fab fa-whatsapp"></i> واتساب</button>
+    </div>
+
+    <div class="simple-footer">
+        <p>🏆 مقاول ترميم وتشطيب بالكويت - فريق عمل متكامل - تركيب سيراميك وباركيه - بديل خشب وبديل رخام - مايكروسمنت وايبوكسي - وكيل معتمد لشركة جوتن - جميع الاصباغ الداخلية والخارجية - دقة وسرعة وأمانة 🏆</p>
+        <div class="footer-phone" onclick="makePhoneCall('50101397')"><i class="fas fa-phone"></i> 50101397</div>
+        <p>جميع الحقوق محفوظة © 2026 | مقاول ترميم وتشطيب - ضمان الجودة والالتزام بالمواعيد</p>
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (typeof gtag_report_conversion === 'function') {
+                gtag_report_conversion();
+            }
+            alert('✅ شكراً لتواصلك مع مقاول الترميم والتشطيب! سيتم الاتصال بك فوراً لتحديد موعد المعاينة المجانية وتقديم عرض السعر المناسب.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
